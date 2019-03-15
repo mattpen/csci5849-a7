@@ -21,7 +21,7 @@
      <li>swipe down</li>
     </ul>
 
-    <p>Perform any of these gestures within the box below.  The multiple click gestures must be completed within a 350ms window.</p>
+    <p>Perform any of these gestures within the box below.  The multiple click gestures must be completed within a 350ms window. The multiple click action triggers after the timeout to prevent collisions or redundant events, e.g. a triple click is not also a double click.  This is less responsive but has better semantics.</p>
     
     <div id="gestureArea"></div>
     

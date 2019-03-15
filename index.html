@@ -8,14 +8,27 @@
   </head>
   <body>
     <h2 id="instructionsHeader">Instructions</h2>
-    <p id="instructions">Put any instructions here.</p>
-    
-    <div id="gestureArea">
+    <p id="instructions">This widget detects the following gestures:</p>
+    <ul>
+     <li>mousedown</li>
+     <li>mouseup</li>
+     <li>double click</li>
+     <li>triple click</li>
+     <li>quadruple click</li>
+     <li>swipe left</li>
+     <li>swipe right</li>
+     <li>swipe up</li>
+     <li>swipe down</li>
+    </ul>
 
-    </div>
+    <p>Perform any of these gestures within the box below.  The multiple click gestures must be completed within a 350ms window.</p>
+    
+    <div id="gestureArea"></div>
+    
     <div id="gestureResult">
       No gesture.
     </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="gestures.js" type="text/javascript"></script>
   </body>
